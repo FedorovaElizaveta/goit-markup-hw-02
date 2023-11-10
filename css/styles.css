@@ -12,26 +12,24 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 /* Header */
 
-.main-header {
-  background-color: #ffffff;
-}
-
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo-first-word {
-  color: #4d5ae5;
+.logo-second-word {
+  color: #2e2f42;
 }
 
 .navigation-menu-link {
@@ -50,6 +48,10 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.main-address {
+  font-style: normal;
 }
 
 .address-menu-link {
@@ -90,6 +92,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+}
+
+.effective-solutions-button:hover,
+.effective-solutions-button:focus {
+  color: #404bbf;
 }
 
 /* The Second Section */
@@ -111,10 +119,6 @@ body {
 }
 
 /* The Third Section */
-
-.our-team-section {
-  background-color: #f4f4fd;
-}
 
 .our-team-heading {
   color: #2e2f42;
@@ -151,13 +155,17 @@ body {
 }
 
 .logo-footer {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-logo-second-word {
+  color: #f4f4fd;
 }
 
 .footer-paragraph {
