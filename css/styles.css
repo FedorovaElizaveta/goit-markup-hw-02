@@ -97,7 +97,7 @@ body {
 
 .effective-solutions-button:hover,
 .effective-solutions-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* The Second Section */
@@ -120,6 +120,10 @@ body {
 
 /* The Third Section */
 
+.our-team-section {
+  background-color: #f4f4fd;
+}
+
 .our-team-heading {
   color: #2e2f42;
   text-align: center;
@@ -128,6 +132,10 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.our-team-list-item {
+  background-color: #ffffff;
 }
 
 .our-team-list-heading {
